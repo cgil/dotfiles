@@ -13,8 +13,7 @@ Setting up:
 ```
 cd ~
 
-git clone git@github.com:dentafrice/dotfiles.git
-git@github.com:dentafrice/private_dotfiles.git
+git clone git@github.com:cgil/dotfiles.git
 
 cd dotfiles
 ./bootstrap.sh
