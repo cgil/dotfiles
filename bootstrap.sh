@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # prezto install
-. ~/dotfiles/install_prezto.sh
+# . ~/dotfiles/install_prezto.sh
 
 # vim Configuration
 rm -rf ~/.vim
