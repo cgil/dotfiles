@@ -1,4 +1,11 @@
 #
+# Executes commands at login pre-zshrc.
+#
+# Authors:
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#
+
+#
 # Browser
 #
 
@@ -13,7 +20,6 @@ fi
 export EDITOR='vim'
 export VISUAL='vim'
 export PAGER='less'
-export SHELL="/bin/zsh"
 
 #
 # Language
