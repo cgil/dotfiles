@@ -1,3 +1,21 @@
+### 0. Optional startup profiling
+#
+# based on http://stackoverflow.com/questions/4351244
+#
+#
+#ZSH_ENABLE_PROFILE=true
+if [[ -n $ZSH_ENABLE_PROFILE ]]; then
+    zmodload zsh/datetime
+    setopt promptsubst
+    PS4='+$EPOCHREALTIME %N:%i> '
+  # save file stderr to file descriptor 3 and redirect stderr (including trace
+  # output) to a file with the script's PID as an extension
+  exec 3>&2 2>/tmp/startlog.$$
+  # set options to turn on tracing and expansion of commands contained in the
+  # prompt
+  setopt xtrace prompt_subst
+fi
+
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
@@ -42,3 +60,14 @@ fi
 
 # because I accidently press Ctrl-s too much...
 stty -ixon
+
+
+## 0. End startup profiling
+#
+
+if [[ -n $ZSH_ENABLE_PROFILE ]]; then
+  # turn off tracing
+  unsetopt xtrace
+  # restore stderr to the value saved in FD 3
+  exec 2>&3 3>&-
+fi
