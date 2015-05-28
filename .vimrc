@@ -21,7 +21,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 " Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
-" Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 call vundle#end()
 
 " display
@@ -106,6 +106,11 @@ if has('mac')
 elseif has('unix')
     nnoremap <leader>y :call system('nc --send-only localhost 8377', @0)<CR>
 endif
+
+"" Cycle buffers
+set hidden "" Necessary to cycle through unsaved buffers
+nnoremap <Tab> :bnext<CR>
+nnoremap <S-Tab> :bprevious<CR>
 
 "" helpers
 nnoremap gr /Reviewers:<CR>A
