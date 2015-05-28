@@ -5,8 +5,8 @@
 [rerere]
 	enabled = true
 [user]
-	email = mingle@uber.com
-	name = Caleb Mingle
+	email = carlos@uber.com
+	name = Carlos Gil
 [alias]
     st = status
     co = checkout
