@@ -22,6 +22,7 @@ Plugin 'scrooloose/syntastic'
 " Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'pangloss/vim-javascript'
 call vundle#end()
 
 " display
