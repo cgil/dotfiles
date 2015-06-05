@@ -38,7 +38,7 @@ find_replace() {
     fi
 
     # Find and replace.
-    findCommand="find . $exclude $match -exec sed -i s/$old/$new/g {} \\;"
+    findCommand="find . -type f $exclude $match -exec sed -i s/$old/$new/g {} \\;"
 
     if [ ! -z "$verbose" ]
     then
