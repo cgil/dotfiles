@@ -19,14 +19,6 @@ find_replace() {
         echo "Illegal number of parameters.\nUsage: find_replace old_string new_string"
     fi
 
-    if [ -z "$verbose" ]
-    then
-        vflag=''
-    else
-        echo "Begining find and replace..."
-        vflag='v'
-    fi
-
     # Match files with pattern.
     if [ -z "$mflag" ]
     then
@@ -46,7 +38,14 @@ find_replace() {
     fi
 
     # Find and replace.
-    echo find . $exclude $match -exec sed -i$vflag "s/$old/$new/g" {} \\\;
+    findCommand="find . $exclude $match -exec sed -i s/$old/$new/g {} \\;"
+
+    if [ ! -z "$verbose" ]
+    then
+        echo "Running: $findCommand"
+    fi
+
+    eval $findCommand
 }
 
 alias fr=find_replace
