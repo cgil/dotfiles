@@ -1,11 +1,6 @@
 find_replace() {
     # Find and replace a string with another string in all included files.
 
-    if [ ${#1} -ne 2 ]
-    then
-        echo "Illegal number of arguments.\nUsage: find_replace old_string new_string"
-    fi
-
     while getopts 'e:m:v' flag; do
       case "${flag}" in
         e) eflag="$OPTARG" ;;
@@ -18,6 +13,11 @@ find_replace() {
     # Get the old and new string to replace.
     old=${@:$OPTIND:1}
     new=${@:$OPTIND+1:1}
+
+    if [ -z old ] || [ -z new ]
+    then
+        echo "Illegal number of parameters.\nUsage: find_replace old_string new_string"
+    fi
 
     if [ -z "$verbose" ]
     then
