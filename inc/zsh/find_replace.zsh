@@ -31,7 +31,7 @@ find_replace() {
     # Exclude files with given paths.
     if [ -z "$eflag" ]
     then
-        exclude='-not \( -path "*./node_modules" -prune \)'
+        exclude='-not \( -path "*./node_modules" -path "*/\.*" -prune \)'
     else
         enquoted="-path '${eflag// /' -path '}'"
         exclude="-not \( $enquoted -prune \)"
