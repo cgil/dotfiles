@@ -1,6 +1,5 @@
 #!/bin/zsh
 
-
 (
 cd $(dirname "$0")
 cd dependencies/cmake-3.2.3/

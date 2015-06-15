@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 cd ~/dotfiles
 
 echo ">> Updating dotfiles repo"
@@ -9,7 +11,10 @@ git submodule update --init --recursive
 # vim plugin configuration
 vim +PluginInstall +qall
 
-# YouCompleteMe install deps
-# . ~/dotfiles/.vim/scripts/install_libarchive.sh
-# . ~/dotfiles/.vim/scripts/install_cmake.sh
-. ~/dotfiles/.vim/bundle/YouCompleteMe/install.sh
+(
+# Compile YouCompleteMe, install dependencies.
+. ~/dotfiles/.vim/scripts/install_libarchive.sh
+. ~/dotfiles/.vim/scripts/install_cmake.sh
+cd ~/dotfiles/.vim/bundle/YouCompleteMe/
+. ./install.sh
+)
