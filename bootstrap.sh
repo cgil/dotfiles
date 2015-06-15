@@ -1,5 +1,8 @@
 #!/bin/zsh
 
+# vim install
+. ~/dotfiles/inc/vim/install_vim.sh
+
 # prezto install
 . ~/dotfiles/install_prezto.sh
 
