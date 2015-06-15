@@ -3,9 +3,6 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 
 
-" Compile YouCompleteMe, remove if not using YouCompleteMe plugin. "
-. scripts/install_youcompleteme_dependencies.sh
-
 call vundle#begin()
 Plugin 'airblade/vim-gitgutter'
 Plugin 'bling/vim-airline'

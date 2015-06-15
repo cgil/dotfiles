@@ -3027,8 +3027,8 @@ configure:14326: checking for localcharset.h
 configure:14326: result: no
 configure:14340: checking for locale_charset
 configure:14340: gcc -o conftest -g -O2   conftest.c -lbz2 -lz   >&5
-/tmp/ccBoGEEU.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:112: undefined reference to `locale_charset'
+/tmp/cc4GSesb.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:112: undefined reference to `locale_charset'
 collect2: ld returned 1 exit status
 configure:14340: $? = 1
 configure: failed program was:
@@ -8199,8 +8199,8 @@ configure:16346: $? = 0
 configure:16346: result: yes
 configure:16352: checking for _doprnt
 configure:16352: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccEgR0Z7.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:143: undefined reference to `_doprnt'
+/tmp/ccr1wHm9.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:143: undefined reference to `_doprnt'
 collect2: ld returned 1 exit status
 configure:16352: $? = 1
 configure: failed program was:
@@ -8905,8 +8905,8 @@ configure:16478: $? = 0
 configure:16478: result: yes
 configure:16478: checking for getvfsbyname
 configure:16478: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/cc04XS51.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:167: undefined reference to `getvfsbyname'
+/tmp/cc0qxsvN.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:167: undefined reference to `getvfsbyname'
 collect2: ld returned 1 exit status
 configure:16478: $? = 1
 configure: failed program was:
@@ -9087,8 +9087,8 @@ configure:16478: $? = 0
 configure:16478: result: yes
 configure:16490: checking for lchflags
 configure:16490: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccMHben6.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:168: undefined reference to `lchflags'
+/tmp/ccOrLHT3.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:168: undefined reference to `lchflags'
 collect2: ld returned 1 exit status
 configure:16490: $? = 1
 configure: failed program was:
@@ -9560,8 +9560,8 @@ configure:16550: $? = 0
 configure:16550: result: yes
 configure:16550: checking for strncpy_s
 configure:16550: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccKYeGRd.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:196: undefined reference to `strncpy_s'
+/tmp/ccy9JgB3.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:196: undefined reference to `strncpy_s'
 collect2: ld returned 1 exit status
 configure:16550: $? = 1
 configure: failed program was:
@@ -9832,8 +9832,8 @@ configure:16574: $? = 0
 configure:16574: result: yes
 configure:16586: checking for _ctime64_s
 configure:16586: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccjtSel8.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:212: undefined reference to `_ctime64_s'
+/tmp/ccMZsTxS.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:212: undefined reference to `_ctime64_s'
 collect2: ld returned 1 exit status
 configure:16586: $? = 1
 configure: failed program was:
@@ -10055,8 +10055,8 @@ configure: failed program was:
 configure:16586: result: no
 configure:16586: checking for _fseeki64
 configure:16586: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccEEuqVe.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:212: undefined reference to `_fseeki64'
+/tmp/ccnINeq0.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:212: undefined reference to `_fseeki64'
 collect2: ld returned 1 exit status
 configure:16586: $? = 1
 configure: failed program was:
@@ -10278,8 +10278,8 @@ configure: failed program was:
 configure:16586: result: no
 configure:16598: checking for _get_timezone
 configure:16598: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccahp5Im.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:212: undefined reference to `_get_timezone'
+/tmp/ccGlYov7.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:212: undefined reference to `_get_timezone'
 collect2: ld returned 1 exit status
 configure:16598: $? = 1
 configure: failed program was:
@@ -10501,8 +10501,8 @@ configure: failed program was:
 configure:16598: result: no
 configure:16598: checking for _localtime64_s
 configure:16598: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccTzgaZu.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:212: undefined reference to `_localtime64_s'
+/tmp/ccJkFTG4.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:212: undefined reference to `_localtime64_s'
 collect2: ld returned 1 exit status
 configure:16598: $? = 1
 configure: failed program was:
@@ -10724,8 +10724,8 @@ configure: failed program was:
 configure:16598: result: no
 configure:16598: checking for _mkgmtime64
 configure:16598: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccwhvqFu.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:212: undefined reference to `_mkgmtime64'
+/tmp/ccKOuRBc.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:212: undefined reference to `_mkgmtime64'
 collect2: ld returned 1 exit status
 configure:16598: $? = 1
 configure: failed program was:
@@ -10947,8 +10947,8 @@ configure: failed program was:
 configure:16598: result: no
 configure:16610: checking for cygwin_conv_path
 configure:16610: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/cctJeV9y.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:212: undefined reference to `cygwin_conv_path'
+/tmp/ccTYlCJj.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:212: undefined reference to `cygwin_conv_path'
 collect2: ld returned 1 exit status
 configure:16610: $? = 1
 configure: failed program was:
@@ -12395,8 +12395,8 @@ configure: failed program was:
 configure:16737: result: no
 configure:16751: checking for extattr_get_file
 configure:16751: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/cc1S4snz.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:214: undefined reference to `extattr_get_file'
+/tmp/cczPCr37.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:214: undefined reference to `extattr_get_file'
 collect2: ld returned 1 exit status
 configure:16751: $? = 1
 configure: failed program was:
@@ -12620,8 +12620,8 @@ configure: failed program was:
 configure:16751: result: no
 configure:16751: checking for extattr_list_file
 configure:16751: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccvYNiLu.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:214: undefined reference to `extattr_list_file'
+/tmp/ccfsXARb.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:214: undefined reference to `extattr_list_file'
 collect2: ld returned 1 exit status
 configure:16751: $? = 1
 configure: failed program was:
@@ -12845,8 +12845,8 @@ configure: failed program was:
 configure:16751: result: no
 configure:16763: checking for extattr_set_fd
 configure:16763: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccY4Z9QB.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:214: undefined reference to `extattr_set_fd'
+/tmp/ccOLOxqc.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:214: undefined reference to `extattr_set_fd'
 collect2: ld returned 1 exit status
 configure:16763: $? = 1
 configure: failed program was:
@@ -13070,8 +13070,8 @@ configure: failed program was:
 configure:16763: result: no
 configure:16763: checking for extattr_set_file
 configure:16763: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccAJAkkJ.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:214: undefined reference to `extattr_set_file'
+/tmp/ccEQwaZg.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:214: undefined reference to `extattr_set_file'
 collect2: ld returned 1 exit status
 configure:16763: $? = 1
 configure: failed program was:
@@ -13327,8 +13327,8 @@ configure:16787: $? = 0
 configure:16787: result: yes
 configure:16799: checking for fgetea
 configure:16799: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccUDbs6E.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:222: undefined reference to `fgetea'
+/tmp/ccFPhv4n.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:222: undefined reference to `fgetea'
 collect2: ld returned 1 exit status
 configure:16799: $? = 1
 configure: failed program was:
@@ -13560,8 +13560,8 @@ configure: failed program was:
 configure:16799: result: no
 configure:16799: checking for flistea
 configure:16799: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccLyLZ7N.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:222: undefined reference to `flistea'
+/tmp/ccqS42ck.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:222: undefined reference to `flistea'
 collect2: ld returned 1 exit status
 configure:16799: $? = 1
 configure: failed program was:
@@ -13793,8 +13793,8 @@ configure: failed program was:
 configure:16799: result: no
 configure:16799: checking for fsetea
 configure:16799: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/cce4fMZV.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:222: undefined reference to `fsetea'
+/tmp/ccayVcNq.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:222: undefined reference to `fsetea'
 collect2: ld returned 1 exit status
 configure:16799: $? = 1
 configure: failed program was:
@@ -14026,8 +14026,8 @@ configure: failed program was:
 configure:16799: result: no
 configure:16799: checking for getea
 configure:16799: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccGPhFO2.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:222: undefined reference to `getea'
+/tmp/ccI181Uy.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:222: undefined reference to `getea'
 collect2: ld returned 1 exit status
 configure:16799: $? = 1
 configure: failed program was:
@@ -14259,8 +14259,8 @@ configure: failed program was:
 configure:16799: result: no
 configure:16811: checking for lgetea
 configure:16811: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccRIHtta.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:222: undefined reference to `lgetea'
+/tmp/ccqWJTSH.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:222: undefined reference to `lgetea'
 collect2: ld returned 1 exit status
 configure:16811: $? = 1
 configure: failed program was:
@@ -14492,8 +14492,8 @@ configure: failed program was:
 configure:16811: result: no
 configure:16811: checking for listea
 configure:16811: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccWvEvRe.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:222: undefined reference to `listea'
+/tmp/ccRFl1tP.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:222: undefined reference to `listea'
 collect2: ld returned 1 exit status
 configure:16811: $? = 1
 configure: failed program was:
@@ -14725,8 +14725,8 @@ configure: failed program was:
 configure:16811: result: no
 configure:16811: checking for llistea
 configure:16811: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/cc5AI8Jl.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:222: undefined reference to `llistea'
+/tmp/ccUkjMVW.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:222: undefined reference to `llistea'
 collect2: ld returned 1 exit status
 configure:16811: $? = 1
 configure: failed program was:
@@ -14958,8 +14958,8 @@ configure: failed program was:
 configure:16811: result: no
 configure:16811: checking for lsetea
 configure:16811: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccTXlfFt.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:222: undefined reference to `lsetea'
+/tmp/ccKA1SA4.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:222: undefined reference to `lsetea'
 collect2: ld returned 1 exit status
 configure:16811: $? = 1
 configure: failed program was:
@@ -15615,8 +15615,8 @@ configure: failed program was:
 configure:16896: result: no
 configure:16910: checking for acl_create_entry
 configure:16910: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccirBADF.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:223: undefined reference to `acl_create_entry'
+/tmp/ccd3w7Cn.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:223: undefined reference to `acl_create_entry'
 collect2: ld returned 1 exit status
 configure:16910: $? = 1
 configure: failed program was:
@@ -15849,8 +15849,8 @@ configure: failed program was:
 configure:16910: result: no
 configure:16910: checking for acl_init
 configure:16910: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccaopoRO.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:223: undefined reference to `acl_init'
+/tmp/ccB77Z3n.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:223: undefined reference to `acl_init'
 collect2: ld returned 1 exit status
 configure:16910: $? = 1
 configure: failed program was:
@@ -16083,8 +16083,8 @@ configure: failed program was:
 configure:16910: result: no
 configure:16910: checking for acl_set_fd
 configure:16910: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccvlJmjW.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:223: undefined reference to `acl_set_fd'
+/tmp/cc0JTEhv.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:223: undefined reference to `acl_set_fd'
 collect2: ld returned 1 exit status
 configure:16910: $? = 1
 configure: failed program was:
@@ -16317,8 +16317,8 @@ configure: failed program was:
 configure:16910: result: no
 configure:16910: checking for acl_set_fd_np
 configure:16910: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccGJUYT3.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:223: undefined reference to `acl_set_fd_np'
+/tmp/ccxWvYTz.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:223: undefined reference to `acl_set_fd_np'
 collect2: ld returned 1 exit status
 configure:16910: $? = 1
 configure: failed program was:
@@ -16551,8 +16551,8 @@ configure: failed program was:
 configure:16910: result: no
 configure:16910: checking for acl_set_file
 configure:16910: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccQojZTb.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:223: undefined reference to `acl_set_file'
+/tmp/cc3foHgH.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:223: undefined reference to `acl_set_file'
 collect2: ld returned 1 exit status
 configure:16910: $? = 1
 configure: failed program was:
@@ -16997,8 +16997,8 @@ configure: failed program was:
 configure:16920: result: no
 configure:16946: checking for acl_get_perm_np
 configure:16946: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccvyLuvk.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:223: undefined reference to `acl_get_perm_np'
+/tmp/cc2GZltV.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:223: undefined reference to `acl_get_perm_np'
 collect2: ld returned 1 exit status
 configure:16946: $? = 1
 configure: failed program was:
@@ -17231,8 +17231,8 @@ configure: failed program was:
 configure:16946: result: no
 configure:16946: checking for acl_get_perm
 configure:16946: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccC2D3is.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:223: undefined reference to `acl_get_perm'
+/tmp/ccH9PDz2.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:223: undefined reference to `acl_get_perm'
 collect2: ld returned 1 exit status
 configure:16946: $? = 1
 configure: failed program was:
@@ -17465,8 +17465,8 @@ configure: failed program was:
 configure:16946: result: no
 configure:16946: checking for acl_get_link
 configure:16946: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/ccUodLbA.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:223: undefined reference to `acl_get_link'
+/tmp/ccppdMJ8.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:223: undefined reference to `acl_get_link'
 collect2: ld returned 1 exit status
 configure:16946: $? = 1
 configure: failed program was:
@@ -17699,8 +17699,8 @@ configure: failed program was:
 configure:16946: result: no
 configure:16946: checking for acl_get_link_np
 configure:16946: gcc -o conftest -g -O2  -I/usr/include/libxml2  conftest.c -llzma -lbz2 -lz  -L/usr/lib/x86_64-linux-gnu -lxml2 >&5
-/tmp/cckAgVBH.o: In function `main':
-/home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/conftest.c:223: undefined reference to `acl_get_link_np'
+/tmp/ccOV3s9h.o: In function `main':
+/home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/conftest.c:223: undefined reference to `acl_get_link_np'
 collect2: ld returned 1 exit status
 configure:16946: $? = 1
 configure: failed program was:
@@ -59861,6 +59861,7 @@ on carlos1
 config.status:1278: creating Makefile
 config.status:1278: creating build/pkgconfig/libarchive.pc
 config.status:1278: creating config.h
+config.status:1459: config.h is unchanged
 config.status:1507: executing depfiles commands
 config.status:1507: executing libtool commands
 
@@ -60231,7 +60232,7 @@ lt_cv_to_tool_file_cmd=func_convert_file_noop
 ## Output variables. ##
 ## ----------------- ##
 
-ACLOCAL='${SHELL} /home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/build/autoconf/missing --run aclocal-1.11'
+ACLOCAL='${SHELL} /home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/build/autoconf/missing --run aclocal-1.11'
 AMDEPBACKSLASH='\'
 AMDEP_FALSE='#'
 AMDEP_TRUE=''
@@ -60243,9 +60244,9 @@ AM_V='$(V)'
 AR='ar'
 ARCHIVE_LIBTOOL_VERSION='14:2:1'
 AS='as'
-AUTOCONF='${SHELL} /home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/build/autoconf/missing --run autoconf'
-AUTOHEADER='${SHELL} /home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/build/autoconf/missing --run autoheader'
-AUTOMAKE='${SHELL} /home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/build/autoconf/missing --run automake-1.11'
+AUTOCONF='${SHELL} /home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/build/autoconf/missing --run autoconf'
+AUTOHEADER='${SHELL} /home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/build/autoconf/missing --run autoheader'
+AUTOMAKE='${SHELL} /home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/build/autoconf/missing --run automake-1.11'
 AWK='gawk'
 BSDCPIO_VERSION_STRING='3.1.2'
 BSDTAR_VERSION_STRING='3.1.2'
@@ -60291,7 +60292,7 @@ LIPO=''
 LN_S='ln -s'
 LTLIBICONV=''
 LTLIBOBJS=''
-MAKEINFO='${SHELL} /home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/build/autoconf/missing --run makeinfo'
+MAKEINFO='${SHELL} /home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/build/autoconf/missing --run makeinfo'
 MANIFEST_TOOL=':'
 MKDIR_P='/bin/mkdir -p'
 NM='/usr/bin/nm -B'
@@ -60353,7 +60354,7 @@ host_vendor='unknown'
 htmldir='${docdir}'
 includedir='${prefix}/include'
 infodir='${datarootdir}/info'
-install_sh='${SHELL} /home/uber/dotfiles/install_scripts/dependencies/libarchive-3.1.2/build/autoconf/install-sh'
+install_sh='${SHELL} /home/uber/dotfiles/.vim/scripts/dependencies/libarchive-3.1.2/build/autoconf/install-sh'
 libdir='${exec_prefix}/lib'
 libexecdir='${exec_prefix}/libexec'
 localedir='${datarootdir}/locale'

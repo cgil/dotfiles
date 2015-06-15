@@ -1,0 +1,1299 @@
+The system is: Linux - 3.2.0-79-virtual - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/lib/ccache/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/3.2.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/lib/ccache/g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/3.2.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3544423098/fast"
+make -f CMakeFiles/cmTryCompileExec3544423098.dir/build.make CMakeFiles/cmTryCompileExec3544423098.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3544423098.dir/testCCompiler.c.o
+/usr/lib/ccache/gcc    -o CMakeFiles/cmTryCompileExec3544423098.dir/testCCompiler.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3544423098
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3544423098.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc       CMakeFiles/cmTryCompileExec3544423098.dir/testCCompiler.c.o  -o cmTryCompileExec3544423098 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2365763624/fast"
+make -f CMakeFiles/cmTryCompileExec2365763624.dir/build.make CMakeFiles/cmTryCompileExec2365763624.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2365763624.dir/CMakeCCompilerABI.c.o
+/usr/lib/ccache/gcc    -o CMakeFiles/cmTryCompileExec2365763624.dir/CMakeCCompilerABI.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2365763624
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2365763624.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc      -v CMakeFiles/cmTryCompileExec2365763624.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2365763624 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.6/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-1ubuntu5' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2365763624' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2365763624 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.6 -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec2365763624.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2365763624/fast"]
+  ignore line: [make -f CMakeFiles/cmTryCompileExec2365763624.dir/build.make CMakeFiles/cmTryCompileExec2365763624.dir/build]
+  ignore line: [make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp']
+  ignore line: [/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2365763624.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/lib/ccache/gcc    -o CMakeFiles/cmTryCompileExec2365763624.dir/CMakeCCompilerABI.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2365763624]
+  ignore line: [/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2365763624.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib/ccache/gcc      -v CMakeFiles/cmTryCompileExec2365763624.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2365763624 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.6/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-1ubuntu5' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2365763624' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2365763624 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.6 -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec2365763624.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2365763624] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.6] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.6]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../..]
+    arg [CMakeFiles/cmTryCompileExec2365763624.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.6] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.6]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.6;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c1x] compiler features compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec186660376/fast"
+make -f CMakeFiles/cmTryCompileExec186660376.dir/build.make CMakeFiles/cmTryCompileExec186660376.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec186660376.dir/feature_tests.c.o
+/usr/lib/ccache/gcc   -std=c1x -o CMakeFiles/cmTryCompileExec186660376.dir/feature_tests.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec186660376
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec186660376.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc       CMakeFiles/cmTryCompileExec186660376.dir/feature_tests.c.o  -o cmTryCompileExec186660376 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2044378858/fast"
+make -f CMakeFiles/cmTryCompileExec2044378858.dir/build.make CMakeFiles/cmTryCompileExec2044378858.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2044378858.dir/feature_tests.c.o
+/usr/lib/ccache/gcc   -std=c99 -o CMakeFiles/cmTryCompileExec2044378858.dir/feature_tests.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec2044378858
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2044378858.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc       CMakeFiles/cmTryCompileExec2044378858.dir/feature_tests.c.o  -o cmTryCompileExec2044378858 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2310783657/fast"
+make -f CMakeFiles/cmTryCompileExec2310783657.dir/build.make CMakeFiles/cmTryCompileExec2310783657.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2310783657.dir/feature_tests.c.o
+/usr/lib/ccache/gcc   -std=c90 -o CMakeFiles/cmTryCompileExec2310783657.dir/feature_tests.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec2310783657
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2310783657.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc       CMakeFiles/cmTryCompileExec2310783657.dir/feature_tests.c.o  -o cmTryCompileExec2310783657 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec240341131/fast"
+make -f CMakeFiles/cmTryCompileExec240341131.dir/build.make CMakeFiles/cmTryCompileExec240341131.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec240341131.dir/testCXXCompiler.cxx.o
+/usr/lib/ccache/g++     -o CMakeFiles/cmTryCompileExec240341131.dir/testCXXCompiler.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec240341131
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec240341131.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec240341131.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec240341131 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2310509172/fast"
+make -f CMakeFiles/cmTryCompileExec2310509172.dir/build.make CMakeFiles/cmTryCompileExec2310509172.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2310509172.dir/CMakeCXXCompilerABI.cpp.o
+/usr/lib/ccache/g++     -o CMakeFiles/cmTryCompileExec2310509172.dir/CMakeCXXCompilerABI.cpp.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2310509172
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2310509172.dir/link.txt --verbose=1
+/usr/lib/ccache/g++       -v CMakeFiles/cmTryCompileExec2310509172.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2310509172 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.6/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-1ubuntu5' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2310509172' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2310509172 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.6 -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec2310509172.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2310509172/fast"]
+  ignore line: [make -f CMakeFiles/cmTryCompileExec2310509172.dir/build.make CMakeFiles/cmTryCompileExec2310509172.dir/build]
+  ignore line: [make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp']
+  ignore line: [/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2310509172.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/lib/ccache/g++     -o CMakeFiles/cmTryCompileExec2310509172.dir/CMakeCXXCompilerABI.cpp.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2310509172]
+  ignore line: [/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2310509172.dir/link.txt --verbose=1]
+  ignore line: [/usr/lib/ccache/g++       -v CMakeFiles/cmTryCompileExec2310509172.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2310509172 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.6/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 4.6.3-1ubuntu5' --with-bugurl=file:///usr/share/doc/gcc-4.6/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.6 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.6 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --disable-werror --with-arch-32=i686 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.6.3 (Ubuntu/Linaro 4.6.3-1ubuntu5) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.6/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2310509172' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.6/collect2 --sysroot=/ --build-id --no-add-needed --as-needed --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2310509172 /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.6 -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../.. CMakeFiles/cmTryCompileExec2310509172.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2310509172] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.6] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.6]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../..]
+    arg [CMakeFiles/cmTryCompileExec2310509172.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.6] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.6]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.6/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.6;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++0x] compiler features compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1443968832/fast"
+make -f CMakeFiles/cmTryCompileExec1443968832.dir/build.make CMakeFiles/cmTryCompileExec1443968832.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1443968832.dir/feature_tests.cxx.o
+/usr/lib/ccache/g++    -std=c++0x -o CMakeFiles/cmTryCompileExec1443968832.dir/feature_tests.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec1443968832
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1443968832.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec1443968832.dir/feature_tests.cxx.o  -o cmTryCompileExec1443968832 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec56541355/fast"
+make -f CMakeFiles/cmTryCompileExec56541355.dir/build.make CMakeFiles/cmTryCompileExec56541355.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec56541355.dir/feature_tests.cxx.o
+/usr/lib/ccache/g++    -std=c++98 -o CMakeFiles/cmTryCompileExec56541355.dir/feature_tests.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec56541355
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec56541355.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec56541355.dir/feature_tests.cxx.o  -o cmTryCompileExec56541355 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the unsetenv exist passed with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3920743801/fast"
+make -f CMakeFiles/cmTryCompileExec3920743801.dir/build.make CMakeFiles/cmTryCompileExec3920743801.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3920743801.dir/CheckSymbolExists.c.o
+/usr/lib/ccache/gcc    -o CMakeFiles/cmTryCompileExec3920743801.dir/CheckSymbolExists.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3920743801
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3920743801.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc       CMakeFiles/cmTryCompileExec3920743801.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3920743801 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+File /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef unsetenv
+  return ((int*)(&unsetenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Checking whether header cstdio is available compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1757625863/fast"
+make -f CMakeFiles/cmTryCompileExec1757625863.dir/build.make CMakeFiles/cmTryCompileExec1757625863.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1757625863.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_CXX_HAS_CSTDIO  -o CMakeFiles/cmTryCompileExec1757625863.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec1757625863
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1757625863.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec1757625863.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec1757625863 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking for Large File Support compiled and ran with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1171347522/fast"
+make -f CMakeFiles/cmTryCompileExec1171347522.dir/build.make CMakeFiles/cmTryCompileExec1171347522.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1171347522.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DKWSYS_CXX_HAS_CSTDIO=1 -DTEST_KWSYS_LFS_WORKS  -o CMakeFiles/cmTryCompileExec1171347522.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec1171347522
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1171347522.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec1171347522.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec1171347522 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether STL classes are in std namespace compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2777218906/fast"
+make -f CMakeFiles/cmTryCompileExec2777218906.dir/build.make CMakeFiles/cmTryCompileExec2777218906.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2777218906.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_STL_HAVE_STD  -o CMakeFiles/cmTryCompileExec2777218906.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec2777218906
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2777218906.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec2777218906.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec2777218906 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether ANSI stream headers are available compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1487141158/fast"
+make -f CMakeFiles/cmTryCompileExec1487141158.dir/build.make CMakeFiles/cmTryCompileExec1487141158.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1487141158.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_IOS_USE_ANSI  -o CMakeFiles/cmTryCompileExec1487141158.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec1487141158
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1487141158.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec1487141158.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec1487141158 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether ANSI streams are in std namespace compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2894310432/fast"
+make -f CMakeFiles/cmTryCompileExec2894310432.dir/build.make CMakeFiles/cmTryCompileExec2894310432.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2894310432.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_IOS_HAVE_STD  -o CMakeFiles/cmTryCompileExec2894310432.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec2894310432
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2894310432.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec2894310432.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec2894310432 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether ANSI string stream is available compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3265219196/fast"
+make -f CMakeFiles/cmTryCompileExec3265219196.dir/build.make CMakeFiles/cmTryCompileExec3265219196.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3265219196.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_IOS_USE_SSTREAM  -o CMakeFiles/cmTryCompileExec3265219196.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec3265219196
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3265219196.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec3265219196.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec3265219196 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether header cstddef is available compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec445718945/fast"
+make -f CMakeFiles/cmTryCompileExec445718945.dir/build.make CMakeFiles/cmTryCompileExec445718945.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec445718945.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_CXX_HAS_CSTDDEF  -o CMakeFiles/cmTryCompileExec445718945.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec445718945
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec445718945.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec445718945.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec445718945 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether stl string has operator!= for char* compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3816655731/fast"
+make -f CMakeFiles/cmTryCompileExec3816655731.dir/build.make CMakeFiles/cmTryCompileExec3816655731.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3816655731.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DKWSYS_STL_HAVE_STD=1 -DTEST_KWSYS_STL_STRING_HAVE_NEQ_CHAR  -o CMakeFiles/cmTryCompileExec3816655731.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec3816655731
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3816655731.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec3816655731.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec3816655731 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether stl has iterator_traits compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2396667056/fast"
+make -f CMakeFiles/cmTryCompileExec2396667056.dir/build.make CMakeFiles/cmTryCompileExec2396667056.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2396667056.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DKWSYS_STL_HAVE_STD=1 -DTEST_KWSYS_STL_HAS_ITERATOR_TRAITS  -o CMakeFiles/cmTryCompileExec2396667056.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec2396667056
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2396667056.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec2396667056.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec2396667056 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether stl has standard template allocator compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2829235729/fast"
+make -f CMakeFiles/cmTryCompileExec2829235729.dir/build.make CMakeFiles/cmTryCompileExec2829235729.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2829235729.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DKWSYS_STL_HAVE_STD=1 -DTEST_KWSYS_STL_HAS_ALLOCATOR_TEMPLATE  -o CMakeFiles/cmTryCompileExec2829235729.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec2829235729
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2829235729.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec2829235729.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec2829235729 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking for rebind member of stl allocator compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2080210978/fast"
+make -f CMakeFiles/cmTryCompileExec2080210978.dir/build.make CMakeFiles/cmTryCompileExec2080210978.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2080210978.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DKWSYS_STL_HAVE_STD=1 -DTEST_KWSYS_STL_HAS_ALLOCATOR_REBIND  -o CMakeFiles/cmTryCompileExec2080210978.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec2080210978
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2080210978.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec2080210978.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec2080210978 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether stl containers support allocator objects. compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2271952217/fast"
+make -f CMakeFiles/cmTryCompileExec2271952217.dir/build.make CMakeFiles/cmTryCompileExec2271952217.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2271952217.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DKWSYS_STL_HAVE_STD=1 -DTEST_KWSYS_STL_HAS_ALLOCATOR_OBJECTS  -o CMakeFiles/cmTryCompileExec2271952217.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec2271952217
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2271952217.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec2271952217.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec2271952217 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether ios has binary openmode compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4209589199/fast"
+make -f CMakeFiles/cmTryCompileExec4209589199.dir/build.make CMakeFiles/cmTryCompileExec4209589199.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4209589199.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DKWSYS_IOS_HAVE_STD=1 -DKWSYS_IOS_USE_ANSI=1 -DTEST_KWSYS_IOS_HAVE_BINARY  -o CMakeFiles/cmTryCompileExec4209589199.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec4209589199
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4209589199.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec4209589199.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec4209589199 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking for member template support compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3892198885/fast"
+make -f CMakeFiles/cmTryCompileExec3892198885.dir/build.make CMakeFiles/cmTryCompileExec3892198885.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3892198885.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_CXX_HAS_MEMBER_TEMPLATES  -o CMakeFiles/cmTryCompileExec3892198885.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec3892198885
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3892198885.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec3892198885.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec3892198885 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking for standard template specialization syntax compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec62067532/fast"
+make -f CMakeFiles/cmTryCompileExec62067532.dir/build.make CMakeFiles/cmTryCompileExec62067532.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec62067532.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_CXX_HAS_FULL_SPECIALIZATION  -o CMakeFiles/cmTryCompileExec62067532.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec62067532
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec62067532.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec62067532.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec62067532 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether argument dependent lookup is supported compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4171036327/fast"
+make -f CMakeFiles/cmTryCompileExec4171036327.dir/build.make CMakeFiles/cmTryCompileExec4171036327.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4171036327.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_CXX_HAS_ARGUMENT_DEPENDENT_LOOKUP  -o CMakeFiles/cmTryCompileExec4171036327.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec4171036327
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4171036327.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec4171036327.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec4171036327 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether struct stat has st_mtim member compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3398479140/fast"
+make -f CMakeFiles/cmTryCompileExec3398479140.dir/build.make CMakeFiles/cmTryCompileExec3398479140.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3398479140.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_STAT_HAS_ST_MTIM  -o CMakeFiles/cmTryCompileExec3398479140.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec3398479140
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3398479140.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec3398479140.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec3398479140 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether C++ compiler has 'long long' compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2109675764/fast"
+make -f CMakeFiles/cmTryCompileExec2109675764.dir/build.make CMakeFiles/cmTryCompileExec2109675764.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2109675764.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_CXX_HAS_LONG_LONG  -o CMakeFiles/cmTryCompileExec2109675764.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec2109675764
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2109675764.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec2109675764.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec2109675764 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking for C type size macros compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2309923247/fast"
+make -f CMakeFiles/cmTryCompileExec2309923247.dir/build.make CMakeFiles/cmTryCompileExec2309923247.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2309923247.dir/kwsysPlatformTestsC.c.o
+/usr/lib/ccache/gcc  -DTEST_KWSYS_C_TYPE_MACROS  -o CMakeFiles/cmTryCompileExec2309923247.dir/kwsysPlatformTestsC.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsC.c
+Linking C executable cmTryCompileExec2309923247
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2309923247.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc       CMakeFiles/cmTryCompileExec2309923247.dir/kwsysPlatformTestsC.c.o  -o cmTryCompileExec2309923247 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3366682369/fast"
+make -f CMakeFiles/cmTryCompileExec3366682369.dir/build.make CMakeFiles/cmTryCompileExec3366682369.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3366682369.dir/CheckIncludeFile.c.o
+/usr/lib/ccache/gcc    -o CMakeFiles/cmTryCompileExec3366682369.dir/CheckIncludeFile.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3366682369
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3366682369.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc       CMakeFiles/cmTryCompileExec3366682369.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3366682369 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec834084078/fast"
+make -f CMakeFiles/cmTryCompileExec834084078.dir/build.make CMakeFiles/cmTryCompileExec834084078.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec834084078.dir/CheckIncludeFile.c.o
+/usr/lib/ccache/gcc    -o CMakeFiles/cmTryCompileExec834084078.dir/CheckIncludeFile.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec834084078
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec834084078.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc       CMakeFiles/cmTryCompileExec834084078.dir/CheckIncludeFile.c.o  -o cmTryCompileExec834084078 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1626833846/fast"
+make -f CMakeFiles/cmTryCompileExec1626833846.dir/build.make CMakeFiles/cmTryCompileExec1626833846.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1626833846.dir/CheckIncludeFile.c.o
+/usr/lib/ccache/gcc    -o CMakeFiles/cmTryCompileExec1626833846.dir/CheckIncludeFile.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1626833846
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1626833846.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc       CMakeFiles/cmTryCompileExec1626833846.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1626833846 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+Determining size of char passed with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec58284846/fast"
+make -f CMakeFiles/cmTryCompileExec58284846.dir/build.make CMakeFiles/cmTryCompileExec58284846.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec58284846.dir/KWSYS_SIZEOF_CHAR.c.o
+/usr/lib/ccache/gcc    -o CMakeFiles/cmTryCompileExec58284846.dir/KWSYS_SIZEOF_CHAR.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CheckTypeSize/KWSYS_SIZEOF_CHAR.c
+Linking C executable cmTryCompileExec58284846
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec58284846.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc       CMakeFiles/cmTryCompileExec58284846.dir/KWSYS_SIZEOF_CHAR.c.o  -o cmTryCompileExec58284846 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+Checking whether char is signed compiled and ran with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4092771701/fast"
+make -f CMakeFiles/cmTryCompileExec4092771701.dir/build.make CMakeFiles/cmTryCompileExec4092771701.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4092771701.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_CHAR_IS_SIGNED  -o CMakeFiles/cmTryCompileExec4092771701.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec4092771701
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4092771701.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec4092771701.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec4092771701 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether wstring is available compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2521771838/fast"
+make -f CMakeFiles/cmTryCompileExec2521771838.dir/build.make CMakeFiles/cmTryCompileExec2521771838.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2521771838.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_STL_HAS_WSTRING  -o CMakeFiles/cmTryCompileExec2521771838.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec2521771838
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2521771838.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec2521771838.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec2521771838 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking if istream supports long long compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3284031561/fast"
+make -f CMakeFiles/cmTryCompileExec3284031561.dir/build.make CMakeFiles/cmTryCompileExec3284031561.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3284031561.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DKWSYS_IOS_HAVE_STD=1 -DKWSYS_IOS_USE_ANSI=1 -DTEST_KWSYS_IOS_HAS_ISTREAM_LONG_LONG  -o CMakeFiles/cmTryCompileExec3284031561.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec3284031561
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3284031561.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec3284031561.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec3284031561 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking if ostream supports long long compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1743240381/fast"
+make -f CMakeFiles/cmTryCompileExec1743240381.dir/build.make CMakeFiles/cmTryCompileExec1743240381.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1743240381.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DKWSYS_IOS_HAVE_STD=1 -DKWSYS_IOS_USE_ANSI=1 -DTEST_KWSYS_IOS_HAS_OSTREAM_LONG_LONG  -o CMakeFiles/cmTryCompileExec1743240381.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec1743240381
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1743240381.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec1743240381.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec1743240381 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether C compiler has ptrdiff_t in stddef.h compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1513346823/fast"
+make -f CMakeFiles/cmTryCompileExec1513346823.dir/build.make CMakeFiles/cmTryCompileExec1513346823.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1513346823.dir/kwsysPlatformTestsC.c.o
+/usr/lib/ccache/gcc  -DTEST_KWSYS_C_HAS_PTRDIFF_T  -o CMakeFiles/cmTryCompileExec1513346823.dir/kwsysPlatformTestsC.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsC.c
+Linking C executable cmTryCompileExec1513346823
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1513346823.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc       CMakeFiles/cmTryCompileExec1513346823.dir/kwsysPlatformTestsC.c.o  -o cmTryCompileExec1513346823 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether C compiler has ssize_t in unistd.h compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3424835910/fast"
+make -f CMakeFiles/cmTryCompileExec3424835910.dir/build.make CMakeFiles/cmTryCompileExec3424835910.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3424835910.dir/kwsysPlatformTestsC.c.o
+/usr/lib/ccache/gcc  -DTEST_KWSYS_C_HAS_SSIZE_T  -o CMakeFiles/cmTryCompileExec3424835910.dir/kwsysPlatformTestsC.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsC.c
+Linking C executable cmTryCompileExec3424835910
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3424835910.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc       CMakeFiles/cmTryCompileExec3424835910.dir/kwsysPlatformTestsC.c.o  -o cmTryCompileExec3424835910 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether CXX compiler has setenv compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec498909417/fast"
+make -f CMakeFiles/cmTryCompileExec498909417.dir/build.make CMakeFiles/cmTryCompileExec498909417.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec498909417.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_CXX_HAS_SETENV  -o CMakeFiles/cmTryCompileExec498909417.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec498909417
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec498909417.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec498909417.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec498909417 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether CXX compiler has unsetenv compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4149510132/fast"
+make -f CMakeFiles/cmTryCompileExec4149510132.dir/build.make CMakeFiles/cmTryCompileExec4149510132.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4149510132.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_CXX_HAS_UNSETENV  -o CMakeFiles/cmTryCompileExec4149510132.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec4149510132
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4149510132.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec4149510132.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec4149510132 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether CXX compiler has utimes compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2336760898/fast"
+make -f CMakeFiles/cmTryCompileExec2336760898.dir/build.make CMakeFiles/cmTryCompileExec2336760898.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2336760898.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_CXX_HAS_UTIMES  -o CMakeFiles/cmTryCompileExec2336760898.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec2336760898
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2336760898.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec2336760898.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec2336760898 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether CXX compiler has utimensat compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec702950079/fast"
+make -f CMakeFiles/cmTryCompileExec702950079.dir/build.make CMakeFiles/cmTryCompileExec702950079.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec702950079.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_CXX_HAS_UTIMENSAT  -o CMakeFiles/cmTryCompileExec702950079.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec702950079
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec702950079.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec702950079.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec702950079 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;ifaddrs.h exist passed with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1321245772/fast"
+make -f CMakeFiles/cmTryCompileExec1321245772.dir/build.make CMakeFiles/cmTryCompileExec1321245772.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1321245772.dir/CheckIncludeFiles.c.o
+/usr/lib/ccache/gcc    -o CMakeFiles/cmTryCompileExec1321245772.dir/CheckIncludeFiles.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1321245772
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1321245772.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc       CMakeFiles/cmTryCompileExec1321245772.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1321245772 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+Checking whether CXX compiler has rlimit64 compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec167714653/fast"
+make -f CMakeFiles/cmTryCompileExec167714653.dir/build.make CMakeFiles/cmTryCompileExec167714653.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec167714653.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DKWSYS_HAS_LFS=1 -DTEST_KWSYS_CXX_HAS_RLIMIT64  -o CMakeFiles/cmTryCompileExec167714653.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec167714653
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec167714653.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec167714653.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec167714653 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether CXX compiler has atol compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec955350704/fast"
+make -f CMakeFiles/cmTryCompileExec955350704.dir/build.make CMakeFiles/cmTryCompileExec955350704.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec955350704.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_CXX_HAS_ATOL  -o CMakeFiles/cmTryCompileExec955350704.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec955350704
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec955350704.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec955350704.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec955350704 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Checking whether CXX compiler has atoll compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1507623478/fast"
+make -f CMakeFiles/cmTryCompileExec1507623478.dir/build.make CMakeFiles/cmTryCompileExec1507623478.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1507623478.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_CXX_HAS_ATOLL  -o CMakeFiles/cmTryCompileExec1507623478.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec1507623478
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1507623478.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec1507623478.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec1507623478 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2891694706/fast"
+make -f CMakeFiles/cmTryCompileExec2891694706.dir/build.make CMakeFiles/cmTryCompileExec2891694706.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2891694706.dir/CheckIncludeFile.cxx.o
+/usr/lib/ccache/g++     -o CMakeFiles/cmTryCompileExec2891694706.dir/CheckIncludeFile.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec2891694706
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2891694706.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec2891694706.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec2891694706 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+Checking whether backtrace works with this C++ compiler compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1494043763/fast"
+make -f CMakeFiles/cmTryCompileExec1494043763.dir/build.make CMakeFiles/cmTryCompileExec1494043763.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1494043763.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_CXX_HAS_BACKTRACE  -o CMakeFiles/cmTryCompileExec1494043763.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec1494043763
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1494043763.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec1494043763.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec1494043763 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3185011846/fast"
+make -f CMakeFiles/cmTryCompileExec3185011846.dir/build.make CMakeFiles/cmTryCompileExec3185011846.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3185011846.dir/CheckIncludeFile.cxx.o
+/usr/lib/ccache/g++     -o CMakeFiles/cmTryCompileExec3185011846.dir/CheckIncludeFile.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec3185011846
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3185011846.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec3185011846.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec3185011846 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+Checking whether dladdr works with this C++ compiler compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2668409391/fast"
+make -f CMakeFiles/cmTryCompileExec2668409391.dir/build.make CMakeFiles/cmTryCompileExec2668409391.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2668409391.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_CXX_HAS_DLADDR  -o CMakeFiles/cmTryCompileExec2668409391.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec2668409391
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2668409391.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec2668409391.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec2668409391 -rdynamic -ldl 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file cxxabi.h exists passed with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2997317962/fast"
+make -f CMakeFiles/cmTryCompileExec2997317962.dir/build.make CMakeFiles/cmTryCompileExec2997317962.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2997317962.dir/CheckIncludeFile.cxx.o
+/usr/lib/ccache/g++     -o CMakeFiles/cmTryCompileExec2997317962.dir/CheckIncludeFile.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTryCompileExec2997317962
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2997317962.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec2997317962.dir/CheckIncludeFile.cxx.o  -o cmTryCompileExec2997317962 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+Checking whether cxxabi works with this C++ compiler compiled with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2735511697/fast"
+make -f CMakeFiles/cmTryCompileExec2735511697.dir/build.make CMakeFiles/cmTryCompileExec2735511697.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2735511697.dir/kwsysPlatformTestsCXX.cxx.o
+/usr/lib/ccache/g++   -DTEST_KWSYS_CXX_HAS_CXXABI  -o CMakeFiles/cmTryCompileExec2735511697.dir/kwsysPlatformTestsCXX.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/kwsysPlatformTestsCXX.cxx
+Linking CXX executable cmTryCompileExec2735511697
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2735511697.dir/link.txt --verbose=1
+/usr/lib/ccache/g++        CMakeFiles/cmTryCompileExec2735511697.dir/kwsysPlatformTestsCXX.cxx.o  -o cmTryCompileExec2735511697 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Source/kwsys/CMakeFiles/CMakeTmp'
+
+
+Determining if the function BZ2_bzCompressInit exists in the /usr/lib/x86_64-linux-gnu/libbz2.so passed with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2401141062/fast"
+make -f CMakeFiles/cmTryCompileExec2401141062.dir/build.make CMakeFiles/cmTryCompileExec2401141062.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2401141062.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/gcc   -DCHECK_FUNCTION_EXISTS=BZ2_bzCompressInit   -o CMakeFiles/cmTryCompileExec2401141062.dir/CheckFunctionExists.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2401141062
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2401141062.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc   -DCHECK_FUNCTION_EXISTS=BZ2_bzCompressInit    CMakeFiles/cmTryCompileExec2401141062.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2401141062 -rdynamic -lbz2 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+Determining if the function lzma_auto_decoder exists in the /usr/lib/x86_64-linux-gnu/liblzma.so passed with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec630131833/fast"
+make -f CMakeFiles/cmTryCompileExec630131833.dir/build.make CMakeFiles/cmTryCompileExec630131833.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec630131833.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/gcc   -DCHECK_FUNCTION_EXISTS=lzma_auto_decoder   -o CMakeFiles/cmTryCompileExec630131833.dir/CheckFunctionExists.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec630131833
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec630131833.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc   -DCHECK_FUNCTION_EXISTS=lzma_auto_decoder    CMakeFiles/cmTryCompileExec630131833.dir/CheckFunctionExists.c.o  -o cmTryCompileExec630131833 -rdynamic -llzma 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+Determining if the function lzma_easy_encoder exists in the /usr/lib/x86_64-linux-gnu/liblzma.so passed with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3987900011/fast"
+make -f CMakeFiles/cmTryCompileExec3987900011.dir/build.make CMakeFiles/cmTryCompileExec3987900011.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3987900011.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/gcc   -DCHECK_FUNCTION_EXISTS=lzma_easy_encoder   -o CMakeFiles/cmTryCompileExec3987900011.dir/CheckFunctionExists.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3987900011
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3987900011.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc   -DCHECK_FUNCTION_EXISTS=lzma_easy_encoder    CMakeFiles/cmTryCompileExec3987900011.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3987900011 -rdynamic -llzma 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+Determining if the function lzma_lzma_preset exists in the /usr/lib/x86_64-linux-gnu/liblzma.so passed with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1200970474/fast"
+make -f CMakeFiles/cmTryCompileExec1200970474.dir/build.make CMakeFiles/cmTryCompileExec1200970474.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1200970474.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/gcc   -DCHECK_FUNCTION_EXISTS=lzma_lzma_preset   -o CMakeFiles/cmTryCompileExec1200970474.dir/CheckFunctionExists.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1200970474
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1200970474.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc   -DCHECK_FUNCTION_EXISTS=lzma_lzma_preset    CMakeFiles/cmTryCompileExec1200970474.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1200970474 -rdynamic -llzma 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wsyncup exists in the /usr/lib/x86_64-linux-gnu/libcurses.so passed with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2728772206/fast"
+make -f CMakeFiles/cmTryCompileExec2728772206.dir/build.make CMakeFiles/cmTryCompileExec2728772206.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2728772206.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/gcc   -DCHECK_FUNCTION_EXISTS=wsyncup   -o CMakeFiles/cmTryCompileExec2728772206.dir/CheckFunctionExists.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2728772206
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2728772206.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc   -DCHECK_FUNCTION_EXISTS=wsyncup    CMakeFiles/cmTryCompileExec2728772206.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2728772206 -rdynamic -lcurses 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cbreak exists in the /usr/lib/x86_64-linux-gnu/libncurses.so passed with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3216089865/fast"
+make -f CMakeFiles/cmTryCompileExec3216089865.dir/build.make CMakeFiles/cmTryCompileExec3216089865.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3216089865.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/gcc   -DCHECK_FUNCTION_EXISTS=cbreak   -o CMakeFiles/cmTryCompileExec3216089865.dir/CheckFunctionExists.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3216089865
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3216089865.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc   -DCHECK_FUNCTION_EXISTS=cbreak    CMakeFiles/cmTryCompileExec3216089865.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3216089865 -rdynamic -lncurses 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file elf.h exists passed with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4177978214/fast"
+make -f CMakeFiles/cmTryCompileExec4177978214.dir/build.make CMakeFiles/cmTryCompileExec4177978214.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4177978214.dir/CheckIncludeFile.c.o
+/usr/lib/ccache/gcc    -o CMakeFiles/cmTryCompileExec4177978214.dir/CheckIncludeFile.c.o   -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4177978214
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4177978214.dir/link.txt --verbose=1
+/usr/lib/ccache/gcc       CMakeFiles/cmTryCompileExec4177978214.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4177978214 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+
+Looking for a Fortran compiler passed with the following output:
+-- The Fortran compiler identification is GNU
+-- Check for working Fortran compiler: /usr/bin/f95
+-- Check for working Fortran compiler: /usr/bin/f95  -- works
+-- Detecting Fortran compiler ABI info
+-- Detecting Fortran compiler ABI info - done
+-- Checking whether /usr/bin/f95 supports Fortran 90
+-- Checking whether /usr/bin/f95 supports Fortran 90 -- yes
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Tests/CMakeFiles/CheckFortran
+
+Performing C++ SOURCE FILE Test run_pic_test succeded with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3992436007/fast"
+make -f CMakeFiles/cmTryCompileExec3992436007.dir/build.make CMakeFiles/cmTryCompileExec3992436007.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3992436007.dir/src.cxx.o
+/usr/lib/ccache/g++    -Drun_pic_test   -fPIE -o CMakeFiles/cmTryCompileExec3992436007.dir/src.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3992436007
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3992436007.dir/link.txt --verbose=1
+/usr/lib/ccache/g++    -Drun_pic_test    CMakeFiles/cmTryCompileExec3992436007.dir/src.cxx.o  -o cmTryCompileExec3992436007 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test run_inlines_hidden_test succeded with the following output:
+Change Dir: /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1091588712/fast"
+make -f CMakeFiles/cmTryCompileExec1091588712.dir/build.make CMakeFiles/cmTryCompileExec1091588712.dir/build
+make[1]: Entering directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_progress_report /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1091588712.dir/src.cxx.o
+/usr/lib/ccache/g++    -Drun_inlines_hidden_test   -fvisibility-inlines-hidden -o CMakeFiles/cmTryCompileExec1091588712.dir/src.cxx.o -c /home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1091588712
+/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/Bootstrap.cmk/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1091588712.dir/link.txt --verbose=1
+/usr/lib/ccache/g++    -Drun_inlines_hidden_test    CMakeFiles/cmTryCompileExec1091588712.dir/src.cxx.o  -o cmTryCompileExec1091588712 -rdynamic 
+make[1]: Leaving directory `/home/uber/dotfiles/.vim/scripts/dependencies/cmake-3.2.3/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
