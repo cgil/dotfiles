@@ -23,10 +23,6 @@ git clone git@github.com:cgil/dotfiles.git
 cd dotfiles
 ./bootstrap.sh
 
-# Right now the setup overwrites the dotfiles in the repo, discard all changes.
-git clean -df
-git checkout -- .
-
 # Done get into the zsh shell
 zsh
 

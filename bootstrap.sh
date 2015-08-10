@@ -24,3 +24,7 @@ ln -sf ~/dotfiles/.ackrc ~/.ackrc
 ln -sf ~/dotfiles/.slate ~/.slate
 
 . ~/dotfiles/update.sh
+
+# clean up any dotfiles that were overwritten during the set up
+git clean -df
+git checkout -- .
