@@ -1,11 +1,21 @@
 Dotfiles
 ========
 
-OSX Requirements
-----------------
+Prereqs
+--------
 
 ```
+# OSX
+# Get Homebrew
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update
+brew doctor
+# Get cmake
+brew install cmake
+# get exuberant-ctags (optional)
 sudo apt-get install exuberant-ctags
+
+# linux
 brew install ctags-exuberant
 ```
 
