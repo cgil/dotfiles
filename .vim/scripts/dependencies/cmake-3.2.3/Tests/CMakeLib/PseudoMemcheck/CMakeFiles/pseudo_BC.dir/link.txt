@@ -1,1 +1,0 @@
-/usr/lib/ccache/g++      CMakeFiles/pseudo_BC.dir/ret0.cxx.o  -o BC -rdynamic ../../../Source/libCMakeLib.a ../../../Source/kwsys/libcmsys.a -ldl -lexpat -lz -larchive ../../../Utilities/cmcompress/libcmcompress.a -lcurl ../../../Utilities/cmjsoncpp/libcmjsoncpp.a 

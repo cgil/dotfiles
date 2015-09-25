@@ -21,10 +21,10 @@ alias browser 'Google Chrome'
 # Layouts
 
 ## 2 Monitors (2 thunderbolts)
-layout 2monitors ${terminal} ${full-main}
+layout 2monitors ${terminal} ${full} 1
 layout 2monitors ${browser} ${full} 1
-layout 2monitors ${hipchat} ${righthalf} 0
-layout 2monitors ${spotify} ${lefthalf} 0
+layout 2monitors ${hipchat} ${full-main}
+layout 2monitors ${spotify} ${full-main}
 
 ## 1 Monitor (Macbook)
 layout 1monitors ${browser} ${full-main}
@@ -33,8 +33,8 @@ layout 1monitors ${spotify} ${full-main}
 layout 1monitors ${hipchat} ${full-main}
 
 # Force Layouts
-bind f:ctrl;alt;cmd layout 2monitors
-bind s:ctrl;alt;cmd layout 1monitors
+bind 2:ctrl;alt;cmd layout 2monitors
+bind 1:ctrl;alt;cmd layout 1monitors
 
 # Layout Defaults
 default 2monitors count:2
