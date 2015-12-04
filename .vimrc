@@ -12,7 +12,7 @@ Plugin 'edkolev/tmuxline.vim'
 Plugin 'gmarik/Vundle.vim' " required
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'Lokaltog/vim-easymotion'
-Plugin 'majutsushi/tagbar'
+" Plugin 'majutsushi/tagbar'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'Raimondi/delimitMate'
