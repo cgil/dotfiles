@@ -12,3 +12,21 @@ snippet pdb "pdb set trace"
 import pdb
 pdb.set_trace()
 endsnippet
+
+snippet testcase "Generic testcase class"
+import unittest
+
+
+class $1TestCase(unittest.TestCase):
+
+    $0
+endsnippet
+
+snippet atestcase "Acceptance testcase class"
+from sku_authority.tests.acceptance import lib as acceptance_lib
+
+
+class $1TestCase(acceptance_lib.AcceptanceViewTestCaseV2):
+
+    $0
+endsnippet

@@ -22,7 +22,8 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 " Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
-" Plugin 'Valloric/YouCompleteMe'
+Plugin 'tpope/vim-abolish'
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'pangloss/vim-javascript'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
@@ -161,6 +162,9 @@ nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
+
+"" faster substitute highlighted text
+nnoremap <c-n> :%s///g<left><left>
 
 "" Toggle set paste
 set pastetoggle=<F2>
