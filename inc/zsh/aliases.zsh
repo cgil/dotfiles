@@ -9,6 +9,7 @@ else
     alias clip="nc localhost 8377"
 fi
 
+alias ack='nocorrect ack --color-match=red'
 alias v='fasd -e vim'
 alias tkill='tmux kill-session -t'
 alias ta='tmux attach -t'
@@ -17,4 +18,4 @@ alias ts='tmux new -s'
 alias top_committers='git shortlog -sne'
 alias ad='arc diff'
 alias adp='arc diff --preview'
-alias urc='ur cleopatra'
+alias sql='nocorrect mysql -uuber -puber'

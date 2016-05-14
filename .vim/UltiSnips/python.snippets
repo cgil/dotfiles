@@ -1,19 +1,32 @@
 snippet pudb "pudb set trace"
-import pudb; pudb.set_trace()
+import pudb
+pudb.set_trace()
 endsnippet
 
 snippet ipdb "ipdb set trace"
-import ipdb; ipdb.set_trace()
+import ipdb
+ipdb.set_trace()
 endsnippet
 
 snippet pdb "pdb set trace"
-import pdb; pdb.set_trace()
+import pdb
+pdb.set_trace()
 endsnippet
 
-snippet testcase "testcase"
-from cleopatra.lib.testing import TestCase
+snippet testcase "Generic testcase class"
+import unittest
 
 
-class TestClass(TestCase):
-    pass
+class $1TestCase(unittest.TestCase):
+
+    $0
+endsnippet
+
+snippet atestcase "Acceptance testcase class"
+from sku_authority.tests.acceptance import lib as acceptance_lib
+
+
+class $1TestCase(acceptance_lib.AcceptanceViewTestCaseV2):
+
+    $0
 endsnippet

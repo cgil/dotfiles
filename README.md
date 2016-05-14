@@ -13,10 +13,10 @@ brew doctor
 # Get cmake
 brew install cmake
 # get exuberant-ctags (optional)
-sudo apt-get install exuberant-ctags
+brew install ctags-exuberant
 
 # linux
-brew install ctags-exuberant
+sudo apt-get install exuberant-ctags
 ```
 
 
