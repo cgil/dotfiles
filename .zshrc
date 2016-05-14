@@ -51,6 +51,7 @@ export UBER_OWNER="carlos@uber.com"
 export VAGRANT_DEFAULT_PROVIDER=aws
 export PATH=$PATH:$HOME/bin
 export PATH=$PATH:/Users/carlos/Library/Android/sdk/platform-tools
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
 
 # Load only OSX things
 if [[ $IS_MAC -eq 1 ]]; then
